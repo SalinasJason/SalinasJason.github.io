@@ -1,0 +1,16 @@
+* { /* Universal selector */
+	margin: 0; /* Removes the default margin */
+	padding: 0; /* Removes the default padding */
+}
+
+
+body { /* Body selector */ 
+}
+
+.page-wrapper { /* .page-wrapper selector */
+	margin: auto; /* Centers the text in the middle */
+	width: 500px; /* Makes the width of the .page-wrapper to 500px */
+	text-align: left; /* Aligns text to the left */
+}
+
+
