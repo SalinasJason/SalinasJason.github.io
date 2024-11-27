@@ -13,4 +13,16 @@ body { /* Body selector */
 	text-align: left; /* Aligns text to the left */
 }
 
+h1 { /* h1 selector */
+    margin-top: 10px; /* Adds space above the h1 text */
+}
+
+h2, h3 { /* h2 and h3 selector */
+    margin-top: 20px; /* Adds space above the h1 and h3 text */
+    margin-bottom: 10px; /* Adds space below the h1 and h3 text */
+}
+
+p { /* p selector */
+    line-height: 140%; /* Adds vertical text spacing */
+}
 
