@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); /* Imports the google font Merriweather */
 * { /* Universal selector */
 	margin: 0; /* Removes the default margin */
 	padding: 0; /* Removes the default padding */
@@ -40,3 +40,22 @@ h2, h3 { /* h2 and h3 selector */
 p { /* p selector */
 	margin-bottom: 10px; /* Adds space below the paragraphs */
 }
+
+a {
+	color: rgb(86, 132, 218); /* Sets the text color to a custom blue */
+}
+
+ a:hover {
+	color: green; /* Changes the link color when you hover on it */
+	text-decoration: none; /* Removes the underline on when you hover on it*/
+}
+
+footer {
+	text-align: center; /* Centers the text */
+	margin-top: 30px; /* Adds space above the footer */
+}
+
+footer a {
+	margin: 8px; /* Adds space around the links */
+}
+
