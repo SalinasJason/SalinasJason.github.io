@@ -5,12 +5,19 @@
 
 
 body { /* Body selector */ 
+	color: black; /* Sets the text color to black */
+	background-image: url(images/pexels-pixabay-158827.jpg); /* Sets the background to an image */
+	background-size: cover; /* Makes the background image cover the entire background */
 }
 
 .page-wrapper { /* .page-wrapper selector */
 	margin: auto; /* Centers the text in the middle */
-	width: 500px; /* Makes the width of the .page-wrapper to 500px */
+	margin-top: 30px; /* Adds space above the .page-wrapper */
+	margin-bottom: 30px; /* Adds space below the .page-wrapper */
+	width: 700px; /* Makes the width of the .page-wrapper to 500px */
 	text-align: left; /* Aligns text to the left */
+	background-color: rgba(255, 255, 255, 0.8); /* Adds sem-transparent white background */
+	padding: 30px; /* Adds padding inside the .page-wrapper */
 }
 
 h1 { /* h1 selector */
@@ -24,5 +31,6 @@ h2, h3 { /* h2 and h3 selector */
 
 p { /* p selector */
     line-height: 140%; /* Adds vertical text spacing */
+	margin-bottom: 10px; /* Adds space below the paragraphs */
 }
 
