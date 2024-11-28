@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 * { /* Universal selector */
 	margin: 0; /* Removes the default margin */
 	padding: 0; /* Removes the default padding */
@@ -5,9 +6,12 @@
 
 
 body { /* Body selector */ 
-	color: black; /* Sets the text color to black */
+	color: rgb(37, 36, 36); /* Sets the text color to a custom black */
 	background-image: url(images/pexels-pixabay-158827.jpg); /* Sets the background to an image */
 	background-size: cover; /* Makes the background image cover the entire background */
+	font-family: 'Merriweather', serif; /* Styles the font */
+	font-size: 15px; /* Sets the font size */
+	line-height: 145%; /* Adds vertical text spacing */
 }
 
 .page-wrapper { /* .page-wrapper selector */
@@ -15,13 +19,17 @@ body { /* Body selector */
 	margin-top: 30px; /* Adds space above the .page-wrapper */
 	margin-bottom: 30px; /* Adds space below the .page-wrapper */
 	width: 700px; /* Makes the width of the .page-wrapper to 500px */
-	text-align: left; /* Aligns text to the left */
+	text-align: left; /* Aligns the text to the left */
 	background-color: rgba(255, 255, 255, 0.8); /* Adds sem-transparent white background */
 	padding: 30px; /* Adds padding inside the .page-wrapper */
 }
 
 h1 { /* h1 selector */
     margin-top: 10px; /* Adds space above the h1 text */
+	margin-bottom: 30px; /* Adds space below the h1 text */
+	font-weight: 600; /* Sets the font weight */
+	font-size: 40px; /* Sets the font size */
+	text-align: center; /* Centers the text */
 }
 
 h2, h3 { /* h2 and h3 selector */
@@ -30,7 +38,5 @@ h2, h3 { /* h2 and h3 selector */
 }
 
 p { /* p selector */
-    line-height: 140%; /* Adds vertical text spacing */
 	margin-bottom: 10px; /* Adds space below the paragraphs */
 }
-
