@@ -59,3 +59,32 @@ footer a {
 	margin: 8px; /* Adds space around the links */
 }
 
+aside { /* Aside selector */
+    margin-top: 30px; /* Adds space above the sidebar */
+    width: 100%; /* Makes the sidebar full width */
+    background-color: rgba(255, 255, 255, 0.); /* Sets a semi-transparent white background */
+    text-align: left; /* Aligns the text to the left */
+    padding: 20px; /* Adds padding inside the sidebar */
+	display: grid; /* Displays a grid layout */
+	grid-template-columns: 700px; /* Sets the width of the column */
+}
+
+#design-selection {
+	float: left; /* Floats the element to the left */
+	margin-right: 100px; /* Adds space to the right */
+}
+
+aside h3 {
+	font-weight: 600; /* Sets the font weight */
+	font-size: 25px; /* Sets the font size */
+	margin-bottom: 15px; /* Adds space below the headings */
+}
+
+aside ul li {
+    margin-bottom: 10px; /* Adds space below the list items */
+	list-style-type: none; /* Removes th bullet points from the list */
+}
+
+aside a {
+    color: rgb(37, 36, 36); /* Sets the link text color to a custom black */
+}
