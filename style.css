@@ -20,8 +20,8 @@ body { /* Body selector */
 	margin-bottom: 30px; /* Adds space below the .page-wrapper */
 	width: 700px; /* Makes the width of the .page-wrapper to 500px */
 	text-align: left; /* Aligns the text to the left */
-	background-color: rgba(255, 255, 255, 0.8); /* Adds sem-transparent white background */
-	padding: 30px; /* Adds padding inside the .page-wrapper */
+	background-color: rgba(255, 255, 255, 0.8); /* Sets the background color to a semi-transparent white */
+	padding: 30px; /* Adds padding around the .page-wrapper */
 }
 
 h1 { /* h1 selector */
@@ -30,11 +30,15 @@ h1 { /* h1 selector */
 	font-weight: 600; /* Sets the font weight */
 	font-size: 40px; /* Sets the font size */
 	text-align: center; /* Centers the text */
+	padding: 25px; /* Adds padding around the h1 */
+	color: white; /* Sets the text color to white */
+	background-color: rgba(16, 77, 16, 0.8); /* Sets the background color to a semi-transparent custom green */
 }
 
 h2, h3 { /* h2 and h3 selector */
     margin-top: 20px; /* Adds space above the h1 and h3 text */
     margin-bottom: 10px; /* Adds space below the h1 and h3 text */
+	color: green; /* Sets the text color to green */
 }
 
 p { /* p selector */
@@ -51,12 +55,24 @@ a {
 }
 
 footer {
-	text-align: center; /* Centers the text */
-	margin-top: 30px; /* Adds space above the footer */
+    text-align: center; /* Centers the text */
+    position: absolute; /* Positions footer absolutely */
+    margin-top: 25em; /* Adds space above the footer */
+    left: 0; /* Aligns footer to the left */
+    width: 100%; /* Makes the footer full width */
+    height: 72px; /* Sets the height */
+    text-transform: uppercase; /* Transforms text to uppercase */
 }
 
 footer a {
-	margin: 8px; /* Adds space around the links */
+    padding: 10px; /* Adds padding around the link text */
+    color: white; /* Sets the link text color */
+    background-color: rgba(16, 77, 16, 0.8); /* Sets a semi-transparent green background */
+    text-decoration: none; /* Removes the underline */
+}
+
+footer a:hover {
+	color: wheat;
 }
 
 aside { /* Aside selector */
@@ -87,4 +103,6 @@ aside ul li {
 
 aside a {
     color: rgb(37, 36, 36); /* Sets the link text color to a custom black */
+	text-decoration: none; /* Removes the underline */
+	font-style: italic; /* Changes the font style to italic */
 }
