@@ -5,6 +5,8 @@
 }
 
 
+/*-------- MAIN SECTION ---------------------------------------------------------------------------*/
+ 
 body { /* Body selector */ 
 	color: rgb(37, 36, 36); /* Sets the text color to a custom black */
 	background-image: url(images/pexels-pixabay-158827.jpg); /* Sets the background to an image */
@@ -54,6 +56,28 @@ a {
 	text-decoration: none; /* Removes the underline on when you hover on it*/
 }
 
+.requirements p:last-child { /* Selects the last paragraph inside the .requirements */
+    padding: 10px; /* Adds padding around the paragraph */
+    color: white; /* Sets the text color to white */
+    background-color: rgba(16, 77, 16, 0.8); /* Sets the background color to a semi-transparent custom green */
+    font-size: 20px; /* Sets the font size */
+    font-style: italic; /* Changes the font style to italic */
+    text-align: center; /* Centers the text */
+    line-height: 140%; /* Adds vertical text spacing */
+}
+
+.requirements p:last-child a {
+    color: wheat; /* Sets the link color to wheat */
+    font-style: normal; /* Sets the font style to normal */
+}
+
+.requirements p:last-child a:hover {
+    color: rgb(247, 207, 139); /* Changes the link color when you hover on it */
+}
+
+
+/*-------- FOOTER SECTION ---------------------------------------------------------------------------*/
+
 footer {
     text-align: center; /* Centers the text */
     position: absolute; /* Positions footer absolutely */
@@ -74,6 +98,9 @@ footer a {
 footer a:hover {
 	color: wheat;
 }
+
+
+/*-------- ASIDE SECTION ---------------------------------------------------------------------------*/
 
 aside { /* Aside selector */
     margin-top: 30px; /* Adds space above the sidebar */
