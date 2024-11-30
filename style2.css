@@ -1,0 +1,20 @@
+.page-wrapper {
+    margin: auto; /* Centers the element horizontally within its container */
+    margin-top: 30px; /* Adds space above the .page-wrapper */
+    width: 800px; /* Sets the width of the .page-wrapper to 800px */
+    text-align: left; /* Aligns the text to the left */
+}
+
+#zen-intro {
+    background-image: url(images/paper4.jpg); /* Sets the background image to an image */
+    background-size: 115%; /* Sets the size of the background image to 115% of the container */
+    overflow: auto; /* Allows for scrolling if the content overflows */
+}
+
+#zen-supporting {
+    background-image: url(images/paper3.jpg); /* Sets the background image to an image */
+    background-size: 115%; /* Sets the size of the background image to 115% of the container */
+    width: 800px; /* Sets the width of the #zen-supporting to 800px */
+    overflow: auto; /* Allows for scrolling if the content overflows */
+    padding-bottom: 50px; /* Adds 50px of padding at the bottom of the #zen-supporting */
+}
