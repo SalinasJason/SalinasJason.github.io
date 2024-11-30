@@ -1,8 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kalam:wght@300;400;700&display=swap'); /* Imports Google Font "Edu NSW ACT Foundation". */
+
+* {
+    margin: 0; /* Removes the default margin */
+}
+
 .page-wrapper {
     margin: auto; /* Centers the element horizontally within its container */
     margin-top: 30px; /* Adds space above the .page-wrapper */
     width: 800px; /* Sets the width of the .page-wrapper to 800px */
     text-align: left; /* Aligns the text to the left */
+    font-family: "Edu NSW ACT Foundation", serif; /* Styles the font */
+}
+
+h1 {
+    text-align: center; /* Centers the text */
+    font-size: 35px; /* Sets the font size to 35px */
+    margin: auto; /* Centers the element horizontally within its container */
+    margin-bottom: 30px; /* Adds space below the h1 element */
+}
+
+h2 {
+    margin-left: 95px; /* Adds space to the left of the h2 element */
+    font-size: 28px; /* Sets the font size to 28px */
+    top: 10px; /* Positions the h2 element 10px from the top */
+}
+
+h3 {
+    margin-left: 95px; /* Adds space to the left of the h3 element */
+    font-size: 24px; /* Sets the font size to 24px */
+}
+
+#zen-summary p {
+    margin-left: 95px; /* Adds space to the left of the paragraph inside #zen-summary */
+    line-height: 130%; /* Sets the line height to 130% */
+}
+
+p {
+    font-size: 22px; /* Sets the font size to 22px */
+}
+
+#zen-summary p:last-child {
+    line-height: 120%; /* Sets the line height to 120%*/
+    margin-bottom: 37px; /* Adds space below the last paragraph inside #zen-summary */
+    font-size: 18px; /* Sets the font size to 18px */
 }
 
 #zen-intro {
