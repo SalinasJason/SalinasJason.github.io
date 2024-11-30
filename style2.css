@@ -4,6 +4,12 @@
     margin: 0; /* Removes the default margin */
 }
 
+body {
+    background-image: url(images/d3qo9kdk.png); /* Sets the body background to an image */
+    background-position: center; /* Centers the background image */
+    background-size: cover;  /* Sets the background image to cover the entire background */
+}
+
 .page-wrapper {
     margin: auto; /* Centers the element horizontally within its container */
     margin-top: 30px; /* Adds space above the .page-wrapper */
@@ -26,13 +32,7 @@ h2 {
 }
 
 h3 {
-    margin-left: 95px; /* Adds space to the left of the h3 element */
-    font-size: 24px; /* Sets the font size to 24px */
-}
-
-#zen-summary p {
-    margin-left: 95px; /* Adds space to the left of the paragraph inside #zen-summary */
-    line-height: 130%; /* Sets the line height to 130% */
+    
 }
 
 p {
@@ -46,15 +46,53 @@ p {
 }
 
 #zen-intro {
-    background-image: url(images/paper4.jpg); /* Sets the background image to an image */
+    background-image: url(images/paper5.jpg); /* sets the background to an image */
     background-size: 115%; /* Sets the size of the background image to 115% of the container */
-    overflow: auto; /* Allows for scrolling if the content overflows */
+    width: 105%;
+}
+
+#zen-intro p {
+    margin-left: 130px; /* Adds space to the left of the paragraph inside #zen-summary */
+}
+
+#zen-preamble p {
+
 }
 
 #zen-supporting {
-    background-image: url(images/paper3.jpg); /* Sets the background image to an image */
+    background-image: url(images/paper7.jpg); /* sets the background to an image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     background-size: 115%; /* Sets the size of the background image to 115% of the container */
-    width: 800px; /* Sets the width of the #zen-supporting to 800px */
-    overflow: auto; /* Allows for scrolling if the content overflows */
+    width: 105%;  /* Sets the width of the #zen-supporting to 800px */
     padding-bottom: 50px; /* Adds 50px of padding at the bottom of the #zen-supporting */
+}
+
+#zen-supporting p {
+    margin-left: 130px;; /* Adds space to the left of the paragraph inside #zen-summary */
+}
+
+aside {
+    background-image: url(images/note.png); /* sets the background to an image */
+    background-repeat: no-repeat; /* prevents the image from repeating */
+    background-size: contain; /* Sets the background image to be contain */
+    top: 10%; /* Positions aside 10% from the top */
+    width: 100%; /* Sets the width to 100% */
+    position: absolute; /* Positions aside */
+    margin: auto; /* Centers the element horizontally within its container */
+    margin-left: 840px; /* Adds space to the left of the aside */
+    padding-bottom: 200px; /* Adds 200px of padding at the bottom */
+}
+
+.wrapper {
+    text-align: left; /* Aligns the text to the left */
+    font-size: 24px; /* Sets the font size to 24px */
+    margin-top: 90px; /* Adds space above the .wrapper */
+    margin-left: 90px; /* Adds space to the left of the .wrapper */
+    font-size: 28px; /* Sets the font size to 28px */
+}
+
+.wrapper ul, a{
+    text-decoration: none; /* Removes the underline from links */
+    list-style: none; /* Removes the bullet points from the list */
+    color: black; /* Sets the text color to black */
 }
