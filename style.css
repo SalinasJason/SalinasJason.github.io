@@ -34,7 +34,7 @@ h1 { /* h1 selector */
 	text-align: center; /* Centers the text */
 	padding: 25px; /* Adds padding around the h1 */
 	color: white; /* Sets the text color to white */
-	background-color: rgba(16, 77, 16, 0.8); /* Sets the background color to a semi-transparent custom green */
+	background-color: rgba(16, 77, 16, 0.7); /* Sets the background color to a semi-transparent custom green */
 }
 
 h2, h3 { /* h2 and h3 selector */
@@ -64,7 +64,7 @@ a {
     padding: 10px; /* Adds padding around the paragraph */
 	margin-top: 15px;
     color: white; /* Sets the text color to white */
-    background-color: rgba(16, 77, 16, 0.8); /* Sets the background color to a semi-transparent custom green */
+    background-color: rgba(16, 77, 16, 0.7); /* Sets the background color to a semi-transparent custom green */
     font-size: 14px; /* Sets the font size */
     font-style: italic; /* Changes the font style to italic */
     text-align: center; /* Centers the text */
@@ -91,17 +91,18 @@ footer {
     width: 100%; /* Makes the footer full width */
     height: 72px; /* Sets the height */
     text-transform: uppercase; /* Transforms text to uppercase */
+	
 }
 
 footer a {
     padding: 10px; /* Adds padding around the link text */
-    color: white; /* Sets the link text color */
-    background-color: rgba(16, 77, 16, 0.8); /* Sets a semi-transparent green background */
+    color:  rgba(16, 77, 16, 0.8); /* Sets the link text color */
+	font-weight: 900;
     text-decoration: none; /* Removes the underline */
 }
 
 footer a:hover {
-	color: wheat;
+	color:	rgba(23, 163, 23, 0.8); /* Sets the link text color */;
 }
 
 
