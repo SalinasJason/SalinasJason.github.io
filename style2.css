@@ -76,7 +76,6 @@ p {
 #zen-preamble h3 {
     margin-left: 130px; /* Adds space to the left of the h3 element */
     font-size: 25px; /* Sets the font size to 25px */
-    margin-top: px; /* Adds space above the h3 element */ 
     text-decoration: underline; /* Adds a underline */
 }
 

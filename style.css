@@ -7,7 +7,7 @@
 
 /*-------- MAIN SECTION ---------------------------------------------------------------------------*/
  
-body { /* Body selector */ 
+body { 
 	color: rgb(37, 36, 36); /* Sets the text color to a custom black */
 	background-image: url(images/pexels-pixabay-158827.jpg); /* Sets the background to an image */
 	background-size: cover; /* Makes the background image cover the entire background */
@@ -16,7 +16,7 @@ body { /* Body selector */
 	line-height: 145%; /* Adds vertical text spacing */
 }
 
-.page-wrapper { /* .page-wrapper selector */
+.page-wrapper {
 	margin: auto; /* Centers the text in the middle */
 	margin-top: 30px; /* Adds space above the .page-wrapper */
 	margin-bottom: 30px; /* Adds space below the .page-wrapper */
@@ -26,7 +26,7 @@ body { /* Body selector */
 	padding: 30px; /* Adds padding around the .page-wrapper */
 }
 
-h1 { /* h1 selector */
+h1 { 
     margin-top: 10px; /* Adds space above the h1 text */
 	margin-bottom: 30px; /* Adds space below the h1 text */
 	font-weight: 600; /* Sets the font weight */
@@ -37,7 +37,7 @@ h1 { /* h1 selector */
 	background-color: rgba(16, 77, 16, 0.7); /* Sets the background color to a semi-transparent custom green */
 }
 
-h2, h3 { /* h2 and h3 selector */
+h2, h3 { 
     margin-top: 20px; /* Adds space above the h1 and h3 text */
     margin-bottom: 10px; /* Adds space below the h1 and h3 text */
 	color: green; /* Sets the text color to green */
@@ -47,11 +47,11 @@ h3 {
 	font-size: 20px; /* Sets the font size */
 }
 
-p { /* p selector */
+p { 
 	margin-bottom: 10px; /* Adds space below the paragraphs */
 }
 
-a {
+a { 
 	color: rgb(86, 132, 218); /* Sets the text color to a custom blue */
 }
 
@@ -60,7 +60,7 @@ a {
 	text-decoration: none; /* Removes the underline on when you hover on it*/
 }
 
-.requirements p:last-child { /* Selects the last paragraph inside the .requirements */
+.requirements p:last-child { 
     padding: 10px; /* Adds padding around the paragraph */
 	margin-top: 15px;
     color: white; /* Sets the text color to white */
@@ -71,19 +71,19 @@ a {
     line-height: 140%; /* Adds vertical text spacing */
 }
 
-.requirements p:last-child a {
+.requirements p:last-child a { 
     color: wheat; /* Sets the link color to wheat */
     font-style: normal; /* Sets the font style to normal */
 }
 
-.requirements p:last-child a:hover {
+.requirements p:last-child a:hover { 
     color: rgb(247, 207, 139); /* Changes the link color when you hover on it */
 }
 
 
 /*-------- FOOTER SECTION ---------------------------------------------------------------------------*/
 
-footer {
+footer { 
     text-align: center; /* Centers the text */
     position: absolute; /* Positions footer absolutely */
     margin-top: 25em; /* Adds space above the footer */
@@ -94,7 +94,7 @@ footer {
 	
 }
 
-footer a {
+footer a { 
     padding: 10px; /* Adds padding around the link text */
     color:  rgba(16, 77, 16, 0.8); /* Sets the link text color */
 	font-weight: 900;
@@ -108,7 +108,7 @@ footer a:hover {
 
 /*-------- ASIDE SECTION ---------------------------------------------------------------------------*/
 
-aside { /* Aside selector */
+aside { 
 	margin-bottom: 30px; /* Adds space below the aside */
     padding: 20px; /* Adds padding inside the aside */
 	display: grid; /* Displays a grid layout */
