@@ -27,9 +27,11 @@ body {
 
 h1 {
     text-align: center; /* Centers the text */
-    font-size: 35px; /* Sets the font size to 35px */
+    font-size: 55px; /* Sets the font size to 35px */
     margin: auto; /* Centers the element horizontally within its container */
-    margin-bottom: 75px; /* Adds space below the h1 element */
+    position: relative; /* Positions the element relative to its normal position */
+    top: 40px; /* Moves the element 40px down */
+    margin-bottom: 85px; /* Adds space below the h1 element */
 }
 
 h2 {
@@ -74,7 +76,7 @@ p {
 #zen-preamble h3 {
     margin-left: 130px; /* Adds space to the left of the h3 element */
     font-size: 25px; /* Sets the font size to 25px */
-    margin-top: 33px; /* Adds space above the h3 element */ 
+    margin-top: px; /* Adds space above the h3 element */ 
     text-decoration: underline; /* Adds a underline */
 }
 
