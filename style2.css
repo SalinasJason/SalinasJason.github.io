@@ -45,6 +45,7 @@ p {
     font-size: 25px; /* Sets the font size to 25px */
     margin-bottom: 29px; /* Adds space below the h3 element */ 
     line-height: 115%; /* Adds vertical text spacing */
+    color: rgba(0, 0, 0, 0.808); /* Sets the text color to semi-transparent black */
 }
 
 #zen-intro a, #zen-supporting a {
@@ -169,6 +170,8 @@ aside {
 
 .wrapper h3 {
     text-decoration: underline; /* Adds a underline */
+    color: rgba(0, 0, 0, 0.61); /* Sets the text color to semi-transparent black */
+
 }
 
 .wrapper ul {
@@ -179,7 +182,7 @@ aside {
 .wrapper a{
     text-decoration: none; /* Removes the underline from links */
     font-weight: 500; /* Makes the text be bolder */
-    color: black; /* Sets the text color to black */
+    color: rgba(0, 0, 0, 0.61); /* Sets the text color to semi-transparent black */
 }
 
 .wrapper a:hover {
