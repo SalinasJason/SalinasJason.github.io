@@ -12,6 +12,8 @@ body {
     background-position: center; /* Centers the background image */
     background-size: cover;  /* Sets the background image to cover the entire background */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+
 }
 
 .page-wrapper {
@@ -37,9 +39,9 @@ h2 {
 
 p {
     margin-left: 130px;; /* Adds space to the left of the paragraph inside #zen-summary */
-    font-size: 25px;
-    margin-bottom: 30px; 
-    line-height: 115%;
+    font-size: 25px; /* Sets the font size to 25px */
+    margin-bottom: 29px; /* Adds space below the h3 element */ 
+    line-height: 115%; /* Adds vertical text spacing */
 }
 
 #zen-intro a, #zen-supporting a {
@@ -48,6 +50,7 @@ p {
 
 #zen-intro a:hover, #zen-supporting a:hover {
     background-color: rgba(255, 255, 0, 0.8); /* Sets a semi-transparent yellow background color on hover for the links*/
+    text-decoration: underline;/* Underlines the text on hover */
 }
 
 
@@ -67,7 +70,7 @@ p {
 #zen-preamble h3 {
     margin-left: 130px; /* Adds space to the left of the h3 element */
     font-size: 25px; /* Sets the font size to 25px */
-    margin-bottom: 1px; /* Adds space below the h3 element */ 
+    margin-top: 33px; /* Adds space above the h3 element */ 
 }
 
 #zen-preamble p,#zen-summary p, #zen-explanation p {
@@ -105,7 +108,28 @@ p {
 }
 
 #zen-requirements p {
-    line-height: 116%; /* Sets the line height */
+    line-height: 116%; /* Adds vertical text spacing */
+}
+
+
+/*-------- FOOTER SECTION ---------------------------------------------------------------------------*/
+
+footer {
+    text-align: center; /* Centers the text */
+    margin-top: 35px; /* Adds space above the footer element */
+    text-transform: uppercase; /* Transforms text to uppercase */	
+}
+
+footer a {
+    padding-right: 10px;   /* Adds padding to the right of the link text */
+    padding-left: 10px;  /* Adds padding to the left the link text */
+    margin-right: 10px; /* Adds space to the right of the link text */
+	font-weight: 900; /* Makes the text be bolder */
+}
+
+footer a:hover {
+    background-color: rgba(255, 255, 0, 0.8); /* Sets a semi-transparent yellow background color on hover for the links*/
+    text-decoration: underline; /* Underlines the text on hover */
 }
 
 
