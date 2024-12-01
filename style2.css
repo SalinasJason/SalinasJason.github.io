@@ -35,6 +35,7 @@ h1 {
 h2 {
     margin-left: 130px; /* Adds space to the left of the h2 element */
     font-size: 28px; /* Sets the font size to 28px */
+    text-decoration: underline; /* Adds a underline */
 }
 
 p {
@@ -46,11 +47,14 @@ p {
 
 #zen-intro a, #zen-supporting a {
     background-color: rgba(255, 255, 0, 0.5); /* Sets a semi-transparent yellow background color for the links */
+    color: black; /* Sets the text color to black */
+    text-decoration: none; /* Removes the underline from links */
+
 }
 
 #zen-intro a:hover, #zen-supporting a:hover {
     background-color: rgba(255, 255, 0, 0.8); /* Sets a semi-transparent yellow background color on hover for the links*/
-    text-decoration: underline;/* Underlines the text on hover */
+    text-decoration: underline; /* Underlines the text on hover */
 }
 
 
@@ -71,6 +75,7 @@ p {
     margin-left: 130px; /* Adds space to the left of the h3 element */
     font-size: 25px; /* Sets the font size to 25px */
     margin-top: 33px; /* Adds space above the h3 element */ 
+    text-decoration: underline; /* Adds a underline */
 }
 
 #zen-preamble p,#zen-summary p, #zen-explanation p {
@@ -91,6 +96,7 @@ p {
     margin-left: 130px; /* Adds space to the left of the h3 element */
     margin-top: 16px; /* Adds space above the h3 element */
     font-size: 25px; /* Sets the font size to 25px */
+    text-decoration: underline; /* Adds a underline */
 }
 
 
@@ -129,7 +135,6 @@ footer a {
 
 footer a:hover {
     background-color: rgba(255, 255, 0, 0.8); /* Sets a semi-transparent yellow background color on hover for the links*/
-    text-decoration: underline; /* Underlines the text on hover */
 }
 
 
@@ -142,7 +147,6 @@ aside {
     top: 10%; /* Positions aside 10% from the top */
     width: 100%; /* Sets the width to 100% */
     position: absolute; /* Positions aside */
-    margin: auto; /* Centers the element horizontally within its container */
     margin-left: 840px; /* Adds space to the left of the aside */
     padding-bottom: 125px; /* Adds 200px of padding at the bottom */
 }
@@ -152,17 +156,24 @@ aside {
     font-size: 24px; /* Sets the font size to 24px */
     margin-top: 60px; /* Adds space above the .wrapper */
     margin-left: 120px; /* Adds space to the left of the .wrapper */
+    font-style: italic; /* Changes the font style to italic */
 }
 
-.wrapper ul, a{
-    text-decoration: none; /* Removes the underline from links */
+.wrapper h3 {
+    text-decoration: underline; /* Adds a underline */
+}
+
+.wrapper ul {
     list-style: none; /* Removes the bullet points from the list */
-    color: black; /* Sets the text color to black */
     font-size: 24px; /* Sets the font size to 24px */
 }
 
 .wrapper a{
     text-decoration: none; /* Removes the underline from links */
-    list-style: none; /* Removes the bullet points from the list */
+    font-weight: 500; /* Makes the text be bolder */
     color: black; /* Sets the text color to black */
+}
+
+.wrapper a:hover {
+    color: white; /* Sets the text color to white */
 }
