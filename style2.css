@@ -4,15 +4,20 @@
     margin: 0; /* Removes the default margin */
 }
 
+
+/*-------- MAIN SECTION ---------------------------------------------------------------------------*/
+
 body {
     background-image: url(images/d3qo9kdk.png); /* Sets the body background to an image */
     background-position: center; /* Centers the background image */
     background-size: cover;  /* Sets the background image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
 
 .page-wrapper {
     margin: auto; /* Centers the element horizontally within its container */
     margin-top: 30px; /* Adds space above the .page-wrapper */
+    margin-bottom: 30px; /* Adds space below the .page-wrapper */
     width: 800px; /* Sets the width of the .page-wrapper to 800px */
     text-align: left; /* Aligns the text to the left */
     font-family: "Edu NSW ACT Foundation", serif; /* Styles the font */
@@ -22,76 +27,117 @@ h1 {
     text-align: center; /* Centers the text */
     font-size: 35px; /* Sets the font size to 35px */
     margin: auto; /* Centers the element horizontally within its container */
-    margin-bottom: 30px; /* Adds space below the h1 element */
+    margin-bottom: 75px; /* Adds space below the h1 element */
 }
 
 h2 {
-    margin-left: 95px; /* Adds space to the left of the h2 element */
+    margin-left: 130px; /* Adds space to the left of the h2 element */
     font-size: 28px; /* Sets the font size to 28px */
-    top: 10px; /* Positions the h2 element 10px from the top */
-}
-
-h3 {
-    
 }
 
 p {
-    font-size: 22px; /* Sets the font size to 22px */
+    margin-left: 130px;; /* Adds space to the left of the paragraph inside #zen-summary */
+    font-size: 25px;
+    margin-bottom: 30px; 
+    line-height: 115%;
 }
 
-#zen-summary p:last-child {
-    line-height: 120%; /* Sets the line height to 120%*/
-    margin-bottom: 37px; /* Adds space below the last paragraph inside #zen-summary */
-    font-size: 18px; /* Sets the font size to 18px */
+#zen-intro a, #zen-supporting a {
+    background-color: rgba(255, 255, 0, 0.5); /* Sets a semi-transparent yellow background color for the links */
 }
+
+#zen-intro a:hover, #zen-supporting a:hover {
+    background-color: rgba(255, 255, 0, 0.8); /* Sets a semi-transparent yellow background color on hover for the links*/
+}
+
+
+/*-------- INTRO SECTION ---------------------------------------------------------------------------*/
 
 #zen-intro {
     background-image: url(images/paper5.jpg); /* sets the background to an image */
     background-size: 115%; /* Sets the size of the background image to 115% of the container */
-    width: 105%;
+    padding-bottom: 9px; /* Adds padding at the bottom */
+    width: 106%; /* Sets the width of the #zen-intro to 106% */
 }
 
 #zen-intro p {
     margin-left: 130px; /* Adds space to the left of the paragraph inside #zen-summary */
 }
 
-#zen-preamble p {
-
+#zen-preamble h3 {
+    margin-left: 130px; /* Adds space to the left of the h3 element */
+    font-size: 25px; /* Sets the font size to 25px */
+    margin-bottom: 1px; /* Adds space below the h3 element */ 
 }
 
+#zen-preamble p,#zen-summary p, #zen-explanation p {
+    margin-top: 4px; /* Adds space above the paragraphs */
+}
+
+/*-------- SUPPORTING SECTION ---------------------------------------------------------------------------*/
+
 #zen-supporting {
-    background-image: url(images/paper7.jpg); /* sets the background to an image */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    background-image: url(images/paper8.jpg); /* sets the background to an image */
     background-size: 115%; /* Sets the size of the background image to 115% of the container */
-    width: 105%;  /* Sets the width of the #zen-supporting to 800px */
+    width: 106%;  /* Sets the width of the #zen-supporting to 800px */
+    padding-top: 5px; /* Adds padding at the top */
     padding-bottom: 50px; /* Adds 50px of padding at the bottom of the #zen-supporting */
 }
 
-#zen-supporting p {
-    margin-left: 130px;; /* Adds space to the left of the paragraph inside #zen-summary */
+#zen-supporting h3 {
+    margin-left: 130px; /* Adds space to the left of the h3 element */
+    margin-top: 16px; /* Adds space above the h3 element */
+    font-size: 25px; /* Sets the font size to 25px */
 }
+
+
+#zen-participation p:last-child {
+    margin-top: 53px; /* Adds space above the last paragraph inside #zen-participation */
+}
+
+#zen-requirements {
+    background-image: url(images/paper7.jpg); /* Sets the background to an image */
+    background-size: 115%; /* Sets the size of the background image to 115% of the container */
+}
+
+#zen-requirements h3 {
+    margin-bottom: 6px; /* Adds margin below the h3 element */
+}
+
+#zen-requirements p {
+    line-height: 116%; /* Sets the line height */
+}
+
+
+/*-------- ASIDE SECTION ---------------------------------------------------------------------------*/
 
 aside {
     background-image: url(images/note.png); /* sets the background to an image */
     background-repeat: no-repeat; /* prevents the image from repeating */
-    background-size: contain; /* Sets the background image to be contain */
+    background-size: contain ; /* Sets the background image to be contain */
     top: 10%; /* Positions aside 10% from the top */
     width: 100%; /* Sets the width to 100% */
     position: absolute; /* Positions aside */
     margin: auto; /* Centers the element horizontally within its container */
     margin-left: 840px; /* Adds space to the left of the aside */
-    padding-bottom: 200px; /* Adds 200px of padding at the bottom */
+    padding-bottom: 125px; /* Adds 200px of padding at the bottom */
 }
 
 .wrapper {
     text-align: left; /* Aligns the text to the left */
     font-size: 24px; /* Sets the font size to 24px */
-    margin-top: 90px; /* Adds space above the .wrapper */
-    margin-left: 90px; /* Adds space to the left of the .wrapper */
-    font-size: 28px; /* Sets the font size to 28px */
+    margin-top: 60px; /* Adds space above the .wrapper */
+    margin-left: 120px; /* Adds space to the left of the .wrapper */
 }
 
 .wrapper ul, a{
+    text-decoration: none; /* Removes the underline from links */
+    list-style: none; /* Removes the bullet points from the list */
+    color: black; /* Sets the text color to black */
+    font-size: 24px; /* Sets the font size to 24px */
+}
+
+.wrapper a{
     text-decoration: none; /* Removes the underline from links */
     list-style: none; /* Removes the bullet points from the list */
     color: black; /* Sets the text color to black */
