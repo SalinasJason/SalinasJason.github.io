@@ -62,7 +62,7 @@ a {
 
 .requirements p:last-child { 
     padding: 10px; /* Adds padding around the paragraph */
-	margin-top: 15px;
+	margin-top: 15px;  /* Adds space above the last paragraph */
     color: white; /* Sets the text color to white */
     background-color: rgba(16, 77, 16, 0.7); /* Sets the background color to a semi-transparent custom green */
     font-size: 14px; /* Sets the font size */
@@ -97,7 +97,7 @@ footer {
 footer a { 
     padding: 10px; /* Adds padding around the link text */
     color:  rgba(16, 77, 16, 0.8); /* Sets the link text color */
-	font-weight: 900;
+	font-weight: 900; /* Makes the text be bolder */
     text-decoration: none; /* Removes the underline */
 }
 
